@@ -18,7 +18,7 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://perkinswill.com/wp-content/uploads/2019/05/Project_LSU_PatrickTaylorHall_01-1-scaled.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: assets\images\Hero_Image.jpg
 
 
 # Social Media and Contact
