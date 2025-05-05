@@ -28,6 +28,7 @@ ul {
 
 .left{
     justify-content: left;
+    padding-left: 1vw;
 }
 
 .center{
@@ -37,6 +38,7 @@ ul {
 
 .right{
     justify-content: right;
+    padding-right: 1vw;
 }
 
 .navbar li a {

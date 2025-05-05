@@ -7,11 +7,10 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     background-color: #042326;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +27,7 @@ ul {
 
 .left{
     justify-content: left;
+    padding-left: 1vw;
 }
 
 .center{
@@ -37,13 +37,14 @@ ul {
 
 .right{
     justify-content: right;
+    padding-right: 1vw;
 }
 
 .navbar li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 26px;
+    padding: 14px 35px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
