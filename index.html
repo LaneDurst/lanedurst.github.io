@@ -9,9 +9,24 @@
     <ul class="navbar">
         <!--- The example given on W3 schools has href="#pageName", this only works for in page nav. --->
         <!--- Since we're doing multi-page nav, we use an actual file path --->
-        <li><a class="active" href="/index.html">Home</a></li>
-        <li><a href="/About/">About Me</a></li>
-        <li><a href="/Projects/">My Projects</a></li>
+        <div class="left">
+            <li class="dropdown">
+                <p>PROJECTS</p>
+                <div class="dropdown-content">
+                    <a href="#">RobotStudio Assistant</a>
+                    <a href="#">Placeholder 1</a>
+                    <a href="#">Placeholder 2</a>
+                </div>
+            </li>
+            <li><a href="/About/">ABOUT</a></li>
+            <li><a href="/Contact/">CONTACT</a></li>
+        </div>
+        <div class="center">
+            <li><a class="active" href="/index.html">LANE DURST</a></li>
+        </div>
+        <div class="right">
+            <li><a href="https://www.linkedin.com/in/lane-durst-a31a38341/">LinkedIn</a></li>
+        </div>
     </ul>
 
     <div class="mainbody">
