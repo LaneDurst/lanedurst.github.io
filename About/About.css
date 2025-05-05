@@ -100,3 +100,8 @@ ul {
 .navbar .dropdown-content a:hover{
     color: #107361;
 }
+
+.in-logo{
+    font-size: x-large;
+    font-family: sans-serif;
+}
