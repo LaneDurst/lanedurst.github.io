@@ -4,6 +4,10 @@
     font-family: 'anton';
 }
 
+html{
+    background-color: #efefef;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
