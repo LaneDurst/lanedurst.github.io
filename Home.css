@@ -105,12 +105,9 @@ ul {
     font-family: sans-serif;
 }
 
-.mainbody{
-}
-
 .greeting {
     position: relative;
-    background-image: url('/lsu_quad.jpg');
+    background-image: url('/Images/lsu_quad.jpg');
     background-size: cover;
     background-position: center;
     height: 40vh;
@@ -135,4 +132,53 @@ ul {
     position: relative;
     z-index: 2;
     font-size: 2rem;
+}
+
+.greeting p:hover{
+    cursor: default;
+}
+
+.proj-prev {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10rem;
+    width: 25%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #d0cfcf;
+}
+
+.proj-prev::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* dark overlay */
+    z-index: 1;
+}
+
+.proj-prev a {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    position: relative;
+    z-index: 2;
+    font-size: 1.5rem;
+}
+
+.proj-prev:hover::before{
+    background: rgba(0, 0, 0, 0.75)
+}
+
+.proj-prev:hover a{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease, visibility 0s;
+    cursor: pointer;
 }
