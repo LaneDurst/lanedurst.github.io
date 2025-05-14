@@ -9,9 +9,16 @@
         <!--- The example given on W3 schools has href="#pageName", this only works for in page nav. --->
         <!--- Since we're doing multi-page nav, we use an actual file path --->
         <div class="left">
-            <li><a class="active" href="/Projects/">My Projects</a></li>
-            <li><a href="/About/">About</a></li>
-            <li><a href="/Contact/">Contact</a></li>
+            <li class="dropdown">
+                <p>PROJECTS</p>
+                <div class="dropdown-content">
+                    <a href="#">RobotStudio Assistant</a>
+                    <a href="#">Placeholder 1</a>
+                    <a href="#">Placeholder 2</a>
+                </div>
+            </li>
+            <li><a href="/About/">ABOUT</a></li>
+            <li><a href="/Contact/">CONTACT</a></li>
         </div>
         <div class="center">
             <li><a href="/">Lane Durst</a></li>
