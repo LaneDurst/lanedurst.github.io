@@ -1,0 +1,123 @@
+*{
+    margin: none;
+    padding: none;
+    font-family: anton;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1%;
+}
+
+body .topNav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+}
+.topNav .left{
+    margin: auto;
+    margin-left: 0;
+    background-color: #023622;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.topNav .right{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    font-size: medium;
+}
+.topNav .right li{
+    margin: 6px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topNav .right li a{
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s ease-in;
+    color: white;
+}
+.topNav .right li a:visited{
+    text-decoration: none;
+    color: white;
+}
+#active{
+    color: #4F4F4F;
+    transition: 0.5s ease-in
+}
+.topNav .right li a:hover, #active:hover{
+    background-color:#4F4F4F;
+    border-radius: 15px;
+    color:white;
+}
+.main{
+    margin-top: 5%;;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.main .row{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+.main li{
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    height: 15rem;
+    margin: 0.5rem;
+    background-color: #4F4F4F;
+    background-size: 100% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.main .row li:first-child{
+    margin-left: 0;
+}
+.main .row li:last-child{
+    margin-right: 0;
+}
+
+
+.main li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #787878b3;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: 0.5s ease-in;
+    text-decoration: none;
+    font-size: larger;
+}
+.main li a:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.main li a:visited{
+    text-decoration: none;
+    color: white;
+}
