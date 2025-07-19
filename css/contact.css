@@ -1,0 +1,105 @@
+*{
+    margin: none;
+    padding: none;
+    font-family: anton;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+body .topNav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: sticky;
+    top: 0;
+    background-color: #101010;
+}
+.topNav .left{
+    margin: auto;
+    margin-left: 0;
+    font-size: x-large;
+}
+.topNav .left:hover{
+    cursor: default;
+}
+.topNav .right{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    font-size: medium;
+}
+.topNav .right li{
+    margin: 6px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topNav .right li a{
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s ease-in;
+    color: white;
+}
+.topNav .right li a:visited{
+    text-decoration: none;
+    color: white;
+}
+#active{
+    color: #2c5942;
+    transition: 0.5s ease-in
+}
+.topNav .right li a:hover, #active:hover{
+    background-color:#4F4F4F;
+    border-radius: 15px;
+    color:white;
+}
+.content{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content h1{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    margin: auto;
+}
+.content h1:hover{
+    cursor: default;
+}
+.content h2{
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+}
+.content h2:hover{
+    cursor: default;
+}
+.content a{
+    margin: auto;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    transition: 0.25s ease-in
+}
+.content a:hover{
+    text-decoration: underline;
+    color:#2c5942;
+    border-radius: 15px;
+}
