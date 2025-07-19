@@ -1,0 +1,84 @@
+*{
+    margin: none;
+    padding: none;
+    font-family: anton;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+body .topNav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: sticky;
+    top: 0;
+    background-color: #101010;
+}
+.topNav .left{
+    margin: auto;
+    margin-left: 0;
+    font-size: x-large;
+}
+.topNav .left:hover{
+    cursor: default;
+}
+.topNav .right{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    font-size: medium;
+}
+.topNav .right li{
+    margin: 6px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topNav .right li a{
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s ease-in;
+    color: white;
+}
+.topNav .right li a:visited{
+    text-decoration: none;
+    color: white;
+}
+#active{
+    color: #2c5942;
+    transition: 0.5s ease-in
+}
+.topNav .right li a:hover, #active:hover{
+    background-color:#4F4F4F;
+    border-radius: 15px;
+    color:white;
+}
+.content{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content img{
+    width: 100%;
+}
+.content h1{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.content h2{
+    margin-top: 0;
+    font-weight: 500;
+}
