@@ -64,7 +64,7 @@ body .topNav{
     border-radius: 15px;
     color:white;
 }
-.main{
+.content{
     margin-top: 3%;;
     text-decoration: none;
     display: flex;
@@ -72,14 +72,14 @@ body .topNav{
     padding-left: 10rem;
     padding-right: 10rem;
 }
-.main .row{
+.content .row{
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
 }
-.main li{
+.content li{
     list-style-type: none;
     text-align: center;
     width: 100%;
@@ -92,14 +92,14 @@ body .topNav{
     display: flex;
 }
 
-.main .row li:first-child{
+.content .row li:first-child{
     margin-left: 0;
 }
-.main .row li:last-child{
+.content .row li:last-child{
     margin-right: 0;
 }
 
-.main li a {
+.content li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,11 +112,11 @@ body .topNav{
     text-decoration: none;
     font-size: larger;
 }
-.main li a:hover{
+.content li a:hover{
     cursor: pointer;
     opacity: 1;
 }
-.main li a:visited{
+.content li a:visited{
     text-decoration: none;
     color: white;
 }
