@@ -56,7 +56,7 @@ body .topNav{
     color: white;
 }
 #active{
-    color: #4F4F4F;
+    color: #2c5942;
     transition: 0.5s ease-in
 }
 .topNav .right li a:hover, #active:hover{
@@ -86,7 +86,7 @@ body .topNav{
     height: 15rem;
     margin: 0.5rem;
     background-color: #4F4F4F;
-    background-size: 100% 90%;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -98,7 +98,6 @@ body .topNav{
 .main .row li:last-child{
     margin-right: 0;
 }
-
 
 .main li a {
     display: flex;
