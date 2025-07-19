@@ -18,8 +18,8 @@ body .topNav{
     display: flex;
     flex-direction: row;
     padding-top: 1.5rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 9%;
+    padding-right: 9%;
     position: sticky;
     top: 0;
     background-color: #101010;
@@ -65,8 +65,8 @@ body .topNav{
     color:white;
 }
 .content{
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 9%;
+    padding-right: 9%;
     display: flex;
     flex-direction: column;
     justify-content: center;
