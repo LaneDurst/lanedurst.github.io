@@ -12,28 +12,26 @@ body{
     display: flex;
     flex-direction: column;
     color: white;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 1%;
 }
 
 body .topNav{
     display: flex;
     flex-direction: row;
     padding-top: 1.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    position: sticky;
+    top: 0;
+    background-color: #101010;
 }
 .topNav .left{
     margin: auto;
     margin-left: 0;
-    background-color: #023622;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    border-radius: 5px;
     font-size: x-large;
 }
-
+.topNav .left:hover{
+    cursor: default;
+}
 .topNav .right{
     margin-left: auto;
     margin-right: 0;
@@ -67,10 +65,12 @@ body .topNav{
     color:white;
 }
 .main{
-    margin-top: 5%;;
+    margin-top: 3%;;
     text-decoration: none;
     display: flex;
     flex-direction: column;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 .main .row{
     text-decoration: none;
