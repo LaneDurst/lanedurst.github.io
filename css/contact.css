@@ -65,8 +65,8 @@ body .topNav{
     color:white;
 }
 .content{
-    padding-left: 9%;
-    padding-right: 9%;
+    margin-left: 9%;
+    margin-right: 9%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,4 +102,44 @@ body .topNav{
     text-decoration: underline;
     color:#2c5942;
     border-radius: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    body .topNav{
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.5rem;
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+        position: sticky;
+        top: 0;
+        background-color: #101010;
+    }
+    .topNav .right li a{
+        padding: 20px;
+    }
+    .content{
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+    }
+    .content li{
+        list-style-type: none;
+        text-align: center;
+        width: 49.5%;
+        height: 15rem;
+        margin-right: 1%;
+        margin-bottom: 1%;
+        background-color: #4F4F4F;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-end;
+    }
+    .content li:first-child{
+        margin-left: 0;
+    }
+    .content li:nth-child(2n){
+        margin-right: 0;
+    }
 }
