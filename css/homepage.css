@@ -67,24 +67,18 @@ body .topNav{
 .content{
     text-decoration: none;
     display: flex;
-    flex-direction: column;
-    padding-left: 9%;
-    padding-right: 9%;
-}
-.content .row{
-    text-decoration: none;
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
+    flex-wrap: wrap;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 .content li{
     list-style-type: none;
     text-align: center;
-    width: 100%;
+    width: 24.25%;
     height: 15rem;
-    margin-right: 0.75rem;
-    margin-bottom: 0.75rem;
+    margin-right: 1%;
+    margin-bottom: 1%;
     background-color: #4F4F4F;
     background-size: 100% 100%;
     background-position: center;
@@ -93,10 +87,10 @@ body .topNav{
     align-items: flex-end;
 }
 
-.content .row li:first-child{
+.content li:first-child{
     margin-left: 0;
 }
-.content .row li:last-child{
+.content li:nth-child(4n){
     margin-right: 0;
 }
 
