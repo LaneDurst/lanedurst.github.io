@@ -156,4 +156,15 @@ body .topNav{
         width: auto;
         height: 2rem;
     }
+    .content .img-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .content .img-div #images{
+        display: flex;
+        flex-direction: row;
+    }
+    .content .img-div #right_text{
+        width: auto;
+    }
 }
