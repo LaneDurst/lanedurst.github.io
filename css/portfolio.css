@@ -142,11 +142,16 @@ body .topNav{
     }
     .content h1{
         font-size: 1.25rem;
+        font-weight: 500;
     }
     .content h2{
         font-size: 1rem;
     }
     .topNav img{
         width: 1rem;
+    }
+    .content #repo_link{
+        width: auto;
+        height: 2rem;
     }
 }
