@@ -126,7 +126,7 @@ body .topNav{
     cursor: pointer;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     body .topNav{
         display: flex;
         flex-direction: row;
@@ -138,7 +138,8 @@ body .topNav{
         background-color: #101010;
     }
     .topNav .right li a{
-        padding: 20px;
+        padding: 0.25rem;
+        font-size: 0.75rem;
     }
     .content{
         margin-left: 4.5%;
@@ -163,5 +164,8 @@ body .topNav{
     }
     .content li:nth-child(2n){
         margin-right: 0;
+    }
+    .topNav img{
+        width: 1rem;
     }
 }

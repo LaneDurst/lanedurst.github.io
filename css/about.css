@@ -87,7 +87,7 @@ body .topNav{
     font-weight: 500;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     body .topNav{
         display: flex;
         flex-direction: row;
@@ -99,10 +99,20 @@ body .topNav{
         background-color: #101010;
     }
     .topNav .right li a{
-        padding: 20px;
+        padding: 0.25rem;
+        font-size: 0.75rem;
     }
     .content{
         margin-left: 4.5%;
         margin-right: 4.5%;
+    }
+    .content h1{
+        font-size: 1.25rem;
+    }
+    .content h2{
+        font-size: 1rem;
+    }
+    .topNav img{
+        width: 1rem;
     }
 }
